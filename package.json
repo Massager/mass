@@ -1,0 +1,39 @@
+{
+  "name": "voximplant-messenger",
+  "version": "1.0.0",
+  "description": "Web Messenger Application built with ReactJS/Flux and VoxImplant Web SDK",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/voximplant/messenger"
+  },
+  "scripts": {
+    "preinstall": "npm i -g gulp"
+  },
+  "keywords": [
+    "voximplant",
+    "flux",
+    "react",
+    "im",
+    "presence",
+    "messenger"
+  ],
+  "author": "VoxImplant <info@voximplant.com> (http://voximplant.com/)",
+  "bugs": {
+    "url": "https://github.com/voximplant/messenger/issues"
+  },
+  "homepage": "https://github.com/voximplant/messenger",
+  "dependencies": {    
+    "gulp-sass": "^3.1.0",
+    "browserify": "^10.2.0",
+    "reactify": "^1.1.1",
+    "vinyl-source-stream": "^1.1.0", 
+    "voximplant-websdk": ">=3.0.1",
+    "react": "^0.13.3",
+    "flux": "^2.0.3",
+    "object-assign": "^2.0.0",
+    "keymirror": "^0.1.1",
+    "favico.js": "^0.3.8",
+    "emojify.js": "^1.0.1"
+  }
+}
