@@ -6,18 +6,18 @@ This application shows VoxImplant IM/Presence capabilities in action. It's built
 * Create a couple of users and assign it to the application.
 * Clone the repository.
 * Once you have the repository cloned, building the app is really easy (assuming you already have nodejs installed):
-    1. Install Gulp and modules including VoxImplant Web SDK:
-          ```sh
-          npm install gulp
-          npm install gulp-sass
-          npm install browserify
-          npm install reactify
-          npm install vinyl-source-stream
-          npm install voximplant-websdk
-          ```
-    2. Change **src/app.js** file by replacing **appname** and **accname** in `<App name="appname.accname.voximplant.com" />` with your VoxImplant application and account name accordingly
-    3. Build the application:
-    	```sh
+	1. Install Gulp and modules including VoxImplant Web SDK:
+        ```sh
+        npm install gulp
+        npm install gulp-sass
+        npm install browserify
+        npm install reactify
+        npm install vinyl-source-stream
+        npm install voximplant-websdk
+        ```
+	2. Change **src/app.js** file by replacing **appname** and **accname** in `<App name="appname.accname.voximplant.com" />` with your VoxImplant application and account name accordingly
+	3. Build the application:
+        ```sh
         gulp default
         ```
-    4. Open index.html in your browser
+	4. Open index.html in your browser
