@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>  
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" type="image/png" href="images/favicon.ico">
+    <title>VOX IM</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">    
+    <link rel="stylesheet" type="text/css" href="css/app.css">
+  </head>
+  <body>
+    <div id="application"></div>  
+    <div id="context-menu">
+        <ul class="dropdown-menu" role="menu">
+            <li><a tabindex="-1" href="javascript:void(0);" data-action="DELETE_CONVERSATION">Delete conversation...</a></li>
+        </ul>
+    </div>
+    <audio style="display:none" id="messageSound" preload="auto">
+        <source src="sounds/message.ogg" type="audio/ogg">
+        <source src="sounds/message.mp3" type="audio/mpeg">
+    </audio>
+    <script type="text/javascript" src="build/desktop-notify.js"></script>
+    <script type="text/javascript" src="build/visibility-1.2.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script src="build/bootstrap-select.js"></script>
+    <script src="build/bootstrap-contextmenu.js"></script>
+    <script src="build/app.js"></script> 
+  </body>
+</html>
