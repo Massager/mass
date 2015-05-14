@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/voximplant/messenger",
   "dependencies": {    
+    "gulp": "^3.8.11",
     "gulp-sass": "^2.0.1",
     "browserify": "^10.2.0",
     "reactify": "^1.1.1",
